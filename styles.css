@@ -110,42 +110,11 @@ html[data-language="en"] [data-lang="en"] {
   line-height: 1;
 }
 
-.wordmark-mark {
-  position: relative;
+.wordmark-icon {
+  flex: 0 0 auto;
   width: 23px;
   height: 23px;
-  border: 2px solid currentColor;
-  border-radius: 50%;
-}
-
-.wordmark-mark::before,
-.wordmark-mark::after,
-.wordmark-mark i {
-  content: "";
-  position: absolute;
-  background: currentColor;
-}
-
-.wordmark-mark::before {
-  width: 2px;
-  height: 7px;
-  left: 9px;
-  top: -5px;
-}
-
-.wordmark-mark::after {
-  width: 7px;
-  height: 2px;
-  right: -5px;
-  top: 9px;
-}
-
-.wordmark-mark i {
-  width: 5px;
-  height: 5px;
-  left: 7px;
-  top: 7px;
-  border-radius: 50%;
+  border-radius: 6px;
 }
 
 .site-nav {
@@ -928,22 +897,9 @@ html[data-language="en"] [data-lang="en"] {
     font-size: 15px;
   }
 
-  .wordmark-mark {
+  .wordmark-icon {
     width: 21px;
     height: 21px;
-  }
-
-  .wordmark-mark::before {
-    left: 8px;
-  }
-
-  .wordmark-mark::after {
-    top: 8px;
-  }
-
-  .wordmark-mark i {
-    left: 6px;
-    top: 6px;
   }
 
   .site-nav {
