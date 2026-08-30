@@ -8,6 +8,7 @@ MicroSpotlight 是一支独立应用团队。我们从真实、具体的日常�
 
 ## 我们的产品
 
+- [BugSnap](https://bugsnap.microspotlight.team/)：在手机上捕获问题证据、补充设备上下文，并预览后创建结构化 GitHub Issue。
 - [Nexus](https://nexus.microspotlight.team/)：连接本地文件、WebDAV、SMB / NAS、Plex、Emby 与 Jellyfin 的媒体播放器。
 - [水滴伙伴](https://waterbuddy.microspotlight.team/)：通过 App、Siri、快捷指令、小组件与系统控制记录日常饮水。
 - [Daily Quote](https://dailyquote.microspotlight.team/)：阅读、收藏并分享适合此刻的一句话。

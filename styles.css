@@ -205,7 +205,7 @@ html[data-language="en"] [data-lang="en"] {
 
 .hero-media {
   display: grid;
-  grid-template-columns: 1.15fr 1fr 1fr 0.85fr 0.85fr;
+  grid-template-columns: 1.15fr 1fr 1fr 0.95fr 0.85fr 0.85fr;
   gap: 2px;
   background: #111214;
 }
@@ -237,6 +237,16 @@ html[data-language="en"] [data-lang="en"] {
 
 .hero-tile--quote {
   background: #e5ddd2;
+}
+
+.hero-tile--bugsnap {
+  background: #1689f8;
+}
+
+.hero-tile--bugsnap img {
+  height: 118%;
+  object-position: 50% 4%;
+  opacity: 0.96;
 }
 
 .hero-tile--radar {
@@ -559,6 +569,10 @@ html[data-language="en"] [data-lang="en"] {
   background: #dff1e9;
 }
 
+.product-card--bugsnap {
+  background: #e7f0fc;
+}
+
 .product-card--quote {
   background: #eee7dd;
 }
@@ -574,9 +588,39 @@ html[data-language="en"] [data-lang="en"] {
 .phone-visual,
 .quote-visual,
 .radar-visual,
-.echo-visual {
+.echo-visual,
+.bugsnap-visual {
   min-height: 295px;
   flex: 1 1 auto;
+}
+
+.bugsnap-visual {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 12px;
+  padding: 26px 22px 0;
+  background: #d7e7fb;
+}
+
+.bugsnap-visual img {
+  width: 29%;
+  max-height: 270px;
+  object-fit: contain;
+  border-radius: 18px 18px 0 0;
+  box-shadow: 0 18px 30px rgba(17, 72, 128, 0.18);
+}
+
+.bugsnap-visual img:nth-child(1) {
+  transform: rotate(-5deg) translateY(16px);
+}
+
+.bugsnap-visual img:nth-child(2) {
+  transform: translateY(2px);
+}
+
+.bugsnap-visual img:nth-child(3) {
+  transform: rotate(5deg) translateY(10px);
 }
 
 .phone-visual img {
@@ -934,6 +978,11 @@ html[data-language="en"] [data-lang="en"] {
     grid-row: 1;
   }
 
+  .hero-tile--bugsnap {
+    grid-column: 3 / 4;
+    grid-row: 2;
+  }
+
   .hero-tile--radar {
     grid-column: 1 / 2;
     grid-row: 2;
@@ -941,7 +990,7 @@ html[data-language="en"] [data-lang="en"] {
   }
 
   .hero-tile--echo {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
     grid-row: 2;
   }
 
@@ -1063,8 +1112,13 @@ html[data-language="en"] [data-lang="en"] {
   .phone-visual,
   .quote-visual,
   .radar-visual,
-  .echo-visual {
+  .echo-visual,
+  .bugsnap-visual {
     min-height: 270px;
+  }
+
+  .bugsnap-visual {
+    padding-inline: 14px;
   }
 
   .studio-section {
