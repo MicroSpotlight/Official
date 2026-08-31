@@ -471,7 +471,6 @@ html[data-language="en"] [data-lang="en"] {
 }
 
 .product-link {
-  margin-top: 28px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -479,6 +478,27 @@ html[data-language="en"] [data-lang="en"] {
   font-size: 14px;
   font-weight: 720;
   line-height: 1.8;
+}
+
+.product-actions {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 18px;
+}
+
+.product-link--testflight {
+  padding: 5px 10px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  line-height: 1.45;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+.product-link--testflight:hover {
+  background: var(--ink);
+  color: var(--paper);
 }
 
 .product-link span:last-child {

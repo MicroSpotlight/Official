@@ -8,12 +8,12 @@ MicroSpotlight 是一支独立应用团队。我们从真实、具体的日常�
 
 ## 我们的产品
 
-- [BugSnap](https://bugsnap.microspotlight.team/)：在手机上捕获问题证据、补充设备上下文，并预览后创建结构化 GitHub Issue。
-- [Nexus](https://nexus.microspotlight.team/)：连接本地文件、WebDAV、SMB / NAS、Plex、Emby 与 Jellyfin 的媒体播放器。
-- [水滴伙伴](https://waterbuddy.microspotlight.team/)：通过 App、Siri、快捷指令、小组件与系统控制记录日常饮水。
-- [Daily Quote](https://dailyquote.microspotlight.team/)：阅读、收藏并分享适合此刻的一句话。
-- [今日行情 Gold](https://radar.microspotlight.team/)：查看黄金行情、地区油价、桌面小组件与价格提醒。
-- [Echo Isle / 声屿](https://echoisle.microspotlight.team/)：专注于个人收听体验的 RSS 播客播放器。
+- [BugSnap](https://bugsnap.microspotlight.team/)：在手机上捕获问题证据、补充设备上下文，并预览后创建结构化 GitHub Issue。 [TestFlight](https://testflight.apple.com/join/x4yJ1WGp)
+- [Nexus](https://nexus.microspotlight.team/)：连接本地文件、WebDAV、SMB / NAS、Plex、Emby 与 Jellyfin 的媒体播放器。 [TestFlight](https://testflight.apple.com/join/X28pJZ16)
+- [水滴伙伴](https://waterbuddy.microspotlight.team/)：通过 App、Siri、快捷指令、小组件与系统控制记录日常饮水。 [TestFlight](https://testflight.apple.com/join/rqmHh69r)
+- [Daily Quote / 句刻](https://dailyquote.microspotlight.team/)：阅读、收藏并分享适合此刻的一句话。 [TestFlight](https://testflight.apple.com/join/ztcDE3Da)
+- [今日行情 Gold](https://radar.microspotlight.team/)：查看黄金行情、地区油价、桌面小组件与价格提醒。 [TestFlight](https://testflight.apple.com/join/hdBY3TMq)
+- [Echo Isle / 声屿](https://echoisle.microspotlight.team/)：专注于个人收听体验的 RSS 播客播放器。 [TestFlight](https://testflight.apple.com/join/Kpmdc2bD)
 
 ## 反馈与联系
 
